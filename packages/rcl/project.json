@@ -1,0 +1,23 @@
+{
+  "root": "packages/rcl",
+  "sourceRoot": "packages/rcl/src",
+  "projectType": "library",
+  "tags": [],
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/rcl/**/*.{ts,tsx,js,jsx}"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/packages/rcl"],
+      "options": {
+        "jestConfig": "packages/rcl/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  }
+}

@@ -14,7 +14,9 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@coinhouse-nx-v3/rcl": ["packages/rcl/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

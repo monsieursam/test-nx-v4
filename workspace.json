@@ -1,4 +1,10 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "onboarding": "packages/onboarding",
+    "onboarding-e2e": "packages/onboarding-e2e",
+    "rcl": "packages/rcl",
+    "test": "packages/test",
+    "test-e2e": "packages/test-e2e"
+  }
 }
